@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom right, #0d0d0d, #1a1a1a);
+    color: purple;
+overflow-x: hidden;   /* ✅ Prevent horizontal scroll */
+    overflow-y: auto;    }
+  
+  
