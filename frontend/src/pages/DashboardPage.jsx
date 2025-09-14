@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import ChatBot from "../components/ChatBot";
 import { FaWhatsapp, FaInstagram, FaFacebook, FaXTwitter, FaBars } from "react-icons/fa6";
-import sadRobot from '../assets/images/level1/sadRobot.jpg';
+import sadRobot from '../assets/images/level1/sadrobot.jpg';
 import wizardImg from '../assets/images/level2/wizard.png';
 import door1 from '../assets/images/level3/door1.png';
 import doorBlueClosed from '../assets/images/level4/door-blue-closed.png';
