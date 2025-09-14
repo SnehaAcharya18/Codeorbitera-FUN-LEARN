@@ -110,7 +110,7 @@ const slides = [
           return;
         }
         console.log("Fetching scores for email:", email);
-        const res = await axios.get(`http://localhost:5000/api/score/by-email/${email}`);
+        const res = await axios.get(`http://codeorbitera-fun-learn.onrender.com/api/score/by-email/${email}`);
         const scores = res.data.gameScores || {};
         const total = Object.values(scores).reduce((sum, val) => sum + Number(val || 0), 0);
         setScores(scores);
