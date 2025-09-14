@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import sadRobot from '../../assets/images/level1/sadRobot.png';
+import sadRobot from '../../assets/images/level1/sadrobot.jpg';
 import happyRobot from '../../assets/images/level1/happyRobot.png';
 import battery30 from '../../assets/images/level1/30p.png';
 import battery60 from '../../assets/images/level1/60p.png';
